@@ -51,10 +51,10 @@ async function starts() {
           
 
 		      
-		      if(settings.nomerlu.startsWith("08")){
+		      if(settings.nomerlu.startsWith("6287825391925")){
 		console.log(color('Error nomer owner tidak di temukan','red'))
-		console.log(color('Masukin nomernya pake 628xxx Tod, bukan pake 08xxx Ngent ','green'))
-		} else if(settings.nomerlu.startsWith("62")){
+		console.log(color('Masukin nomernya pake 62xxx Tod, bukan pake 08xxx Ngent ','green'))
+		} else if(settings.nomerlu.startsWith("6287825391925")){
 		await client.sendMessage(`${settings.nomerlu}@s.whatsapp.net`,"Bot berhasil tersambung", text)
 await client.modifyChat(`${settings.nomerlu}@s.whatsapp.net`, 'delete').catch(_ => _)
 		}
